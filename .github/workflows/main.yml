@@ -1,2 +1,10 @@
-              - name: Kicad PDF
-                uses: emilymclean/kicad-pdf@v1.0.4
+on: 
+  push:
+
+jobs:
+uses: emilymclean/kicad-pdf@v1.0.4
+  steps:
+  - name: Kicad PDF
+    with:
+      input-files: BB-STM32 Dev Board.kicad_sch
+      output-file: BB-STM32WL Dev Board Schematic.pdf
