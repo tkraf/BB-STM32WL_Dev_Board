@@ -2,7 +2,7 @@ name: Schematic PDF Creation
 on: [push]
 jobs:
   Create-Schematic-PDF:
-    runs-on: ubuntu=latest
+    runs-on: ubuntu-latest
     steps:
       - name: Kicad PDF
         uses: emilymclean/kicad-pdf@v1.0.4
