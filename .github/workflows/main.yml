@@ -1,0 +1,2 @@
+              - name: Kicad PDF
+                uses: emilymclean/kicad-pdf@v1.0.4
