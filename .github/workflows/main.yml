@@ -13,3 +13,8 @@ jobs:
         with:
           input-files: BB-STM32 Dev Board.kicad_sch
           output-file: Schematic.pdf
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          path: Schematic.pdf
