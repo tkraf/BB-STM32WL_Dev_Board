@@ -1,0 +1,20 @@
+on: [push]
+
+jobs:
+  kicad_job:
+    runs-on: ubuntu-latest
+    name: My KiCad job
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Export production files
+        uses: emilymclean/kicad-pdf@v1.0.4
+        with:
+          input-files: BB-STM32 Dev Board.kicad_sch
+          output-file: Schematic.pdf
+
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          path: Schematic.pdf
