@@ -1,11 +1,4 @@
-23597318118603839
-216990-0003
-2169900003
-216990-0003-1
-Connector
-0
-16
-16
+23600776215200578
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6432,6 +6425,34 @@ capacitor tantalum
 0
 2
 2
+Component Libraries
+2169900003
+216990-0003-1
+Connector
+0
+16
+16
+Component Libraries
+Bourns SRP4020TA
+
+
+0
+2
+1
+Component Libraries
+QFN50P500X500X80-29N-D
+WQFN-28
+Integrated Circuit
+0
+29
+29
+Component Libraries
+SOT95P280X110-6N
+
+
+0
+6
+6
 Connector
 Banana_Cliff_FCR7350B_S16N-PC_Horizontal
 Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, black, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
@@ -56391,13 +56412,6 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
-FT260Q
-QFN50P500X500X80-29N-D
-WQFN-28
-Integrated Circuit
-0
-29
-29
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
