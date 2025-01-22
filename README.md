@@ -12,8 +12,8 @@ A development board for the BB-STM32WL that supports LiPo batteries, solar charg
 ### Setup
 
 1. **Powering the Board**:
-    - Connect a LiPo battery to the designated connector.
-    - Optionally, connect a solar panel to the solar charging port.
+    - Connect a LiPo battery to the BAT connector on the back of the board.
+    - Optionally, connect a solar panel to the VIN connector.
     - The board can also be powered through the USB port.
 
 2. **Programming**:
