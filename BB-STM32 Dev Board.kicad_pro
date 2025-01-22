@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.59,
-          "width": 1.45
+          "drill": 0.6,
+          "height": 1.8,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|135100000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|4646fcfb-7c4a-48bb-aeae-9f1d50bff37c",
+        "copper_edge_clearance|135900000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|e14d0570-4b41-484c-a92b-93cc87bbb033",
+        "copper_edge_clearance|136400000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|49b8016b-05a4-4d9b-9ae8-344289e2bea8",
+        "copper_edge_clearance|136900000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|af486570-0fac-4206-a0fa-bd3e5ee47842",
+        "copper_edge_clearance|137400000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|0826cae8-0bd9-4dcf-9c36-b58c286b2a14",
+        "copper_edge_clearance|137900000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|1a42f966-ed00-42de-976c-2147f9599ed9",
+        "copper_edge_clearance|138400000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|252683ee-9366-4a0c-8b7b-08f591bc94bf",
+        "copper_edge_clearance|138900000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|4957bc05-a45e-4a10-b0f7-521a84ab4f0e",
+        "copper_edge_clearance|139400000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|61764701-3a36-4489-bcbb-749597dfa7c9",
+        "copper_edge_clearance|139900000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|3c35c4fa-3ceb-495c-ace7-10b95464d3a4",
+        "copper_edge_clearance|140700000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|ad7b6b24-d90a-4ac3-a666-0c3ae5048738",
+        "copper_edge_clearance|141500000|117467500|1af88e61-258e-4ff9-8957-d684bd8686d6|50568b94-5ac4-4857-a2bd-1020c5178f2a"
+      ],
       "meta": {
         "version": 2
       },
@@ -118,7 +131,7 @@
         "max_error": 0.005,
         "min_clearance": 0.16,
         "min_connection": 0.16,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -502,7 +515,7 @@
       "plot": "Build Files/BB-STM32 Dev Board V1",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BB-STM32 Dev Board.step",
       "svg": "",
       "vrml": ""
     },
